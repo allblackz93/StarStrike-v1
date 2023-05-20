@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4016-793f-d3f2-11f9" name="Grand Army of the Republic" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9d2e-0aec-ac50-2a64" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType id="aadc-3a21-4cde-c5d8" name="Model">
+      <characteristicTypes>
+        <characteristicType id="581f-2a35-53c2-8e4e" name="Move"/>
+        <characteristicType id="7c94-09ca-ca90-74e6" name="Armour"/>
+        <characteristicType id="7596-4e17-c201-846c" name="Morale"/>
+        <characteristicType id="aae3-cccc-f438-10d0" name="Command"/>
+        <characteristicType id="4933-f266-e40a-e8a1" name="Force Strength"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="708e-0b6a-1136-5465" name="Weapon">
+      <characteristicTypes>
+        <characteristicType id="3494-0cf8-8429-59da" name="Weapon"/>
+        <characteristicType id="31c1-2c15-20cf-60ed" name="Rof/Range"/>
+        <characteristicType id="0b99-b1eb-5cd6-9573" name="Hit"/>
+        <characteristicType id="505c-a652-b6d6-0ce9" name="AP"/>
+        <characteristicType id="09ce-6d2e-16fb-5b72" name="Damage"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="3e27-65ff-7fa3-5db9" name="Ability">
+      <characteristicTypes>
+        <characteristicType id="538f-7063-fcdf-a9fd" name="New CharacteristicType"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="8eea-07a4-700b-a503" name="Order">
+      <characteristicTypes>
+        <characteristicType id="dcbc-4750-9b76-4ab2" name="CP"/>
+        <characteristicType id="38cb-8fe3-0d99-351d" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="9d2c-3290-2201-4560" name="Republic" hidden="false"/>
+    <categoryEntry id="5ceb-bdbd-c6ee-bcdf" name="Clone" hidden="false"/>
+    <categoryEntry id="e364-87a0-77a9-b323" name="Legion" hidden="false"/>
+    <categoryEntry id="66d6-64df-a6e9-9af2" name="Officer" hidden="false"/>
+    <categoryEntry id="2de9-be2b-bb83-64ed" name="501st" hidden="false"/>
+    <categoryEntry id="be3f-be6c-5352-e363" name="212th" hidden="false"/>
+    <categoryEntry id="938c-5340-4baf-1bea" name="104th" hidden="false"/>
+    <categoryEntry id="ce89-b482-071f-3175" name="Commander" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="bbc0-c0ec-6a12-5dcd" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a5e7-4a04-2231-8be9" name="Trooper" hidden="false"/>
+    <categoryEntry id="e62a-9c86-7275-cae5" name="41st" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="2ebf-bcd4-0c6e-20b1" name="Phase 1 Clone Trooper Squad" hidden="false" collective="false" import="true" targetId="a556-ae9b-3d36-8eec" type="selectionEntry"/>
+    <entryLink id="8eca-d3a8-cc29-e534" name="Clone Commander" hidden="false" collective="false" import="true" targetId="7782-5728-f891-5a1b" type="selectionEntry"/>
+    <entryLink id="b31c-fdad-133d-d931" name="Allegiance : Republic" hidden="false" collective="false" import="true" targetId="50f6-e9e6-5301-76c1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5118-da8d-f53a-dd4a" name="New CategoryLink" hidden="false" targetId="a3b3-cb7e-71aa-f6dd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0258-f5b4-7d77-4b5a" name="Phase II Clone Trooper Squad" hidden="false" collective="false" import="true" targetId="2d64-4155-0bdf-006e" type="selectionEntry"/>
+    <entryLink id="f676-2e3c-8b61-132d" name="Clone Mortar Battery" hidden="false" collective="false" import="true" targetId="64bd-197f-f7c1-90aa" type="selectionEntry"/>
+    <entryLink id="0f3a-84c9-1db1-cd59" name="Clone Jet Trooper Squad" hidden="false" collective="false" import="true" targetId="6f1e-b2e5-de06-016e" type="selectionEntry"/>
+    <entryLink id="9f3f-eb78-0f03-7f7c" name="Clone Captain" hidden="false" collective="false" import="true" targetId="35f6-1576-ab38-a165" type="selectionEntry"/>
+    <entryLink id="2fc7-6db8-88ed-fa20" name="Clone Captain Rex" hidden="false" collective="false" import="true" targetId="245f-829d-3541-78a8" type="selectionEntry"/>
+    <entryLink id="b2d7-4e13-5e75-15e0" name="Clone-Marshall Commander Cody" hidden="false" collective="false" import="true" targetId="5cf9-d24c-d2ea-bab2" type="selectionEntry"/>
+    <entryLink id="d7dd-db73-a2f1-e5a3" name="Clone Commander Wolffe" hidden="false" collective="false" import="true" targetId="bed7-271b-018d-ce62" type="selectionEntry"/>
+    <entryLink id="f2bd-1fce-3de9-8ae2" name="General Anakin" hidden="false" collective="false" import="true" targetId="a0a4-825b-0b38-4058" type="selectionEntry"/>
+    <entryLink id="d736-1353-7d97-a27f" name="Grand-Master Yoda" hidden="false" collective="false" import="true" targetId="6ac9-75ad-4ee3-f445" type="selectionEntry"/>
+    <entryLink id="296d-65fe-188a-2958" name="ARC Trooper Team" hidden="false" collective="false" import="true" targetId="2b1a-f112-c812-7dc6" type="selectionEntry"/>
+    <entryLink id="e743-4997-d01a-237a" name="TX-130 Saber Fighting Tank" hidden="false" collective="false" import="true" targetId="dc89-a960-9bd9-f2c4" type="selectionEntry"/>
+    <entryLink id="35ea-18d1-dd8f-0319" name="The Bad Batch" hidden="false" collective="false" import="true" targetId="d367-4a44-042d-2077" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="a556-ae9b-3d36-8eec" name="Phase 1 Clone Trooper Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fd55-fe7c-f462-314d" name="Phase 1 Clone Trooper" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">5&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">6+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">7</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">1</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">0</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8cff-aca5-a277-ec17" name="Gun Butts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">1</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">5+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a9c3-259c-e705-6b39" name="Blasters" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b366-b210-1692-f9ee" name="Clone Sergeant" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">While this unit has a Clone Sergeant, add 1 to At The Double and Charge rolls</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2809-adaf-231b-3fe9" name="New CategoryLink" hidden="false" targetId="9720-c42a-392a-668f" primary="true"/>
+        <categoryLink id="706b-19f0-456d-6341" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="9ead-bfc5-7426-cb5d" name="New CategoryLink" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="3fba-58a8-6207-fc74" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="f597-eb2c-2c57-247b" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="ad39-b215-0a2e-eefc" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+        <categoryLink id="ddf3-88ae-1cdb-c258" name="Trooper" hidden="false" targetId="a5e7-4a04-2231-8be9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="117b-533e-6104-a6c6" name="Phase 1 Clone Troopers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="740b-83a7-9efe-b5ad" type="min"/>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="46b4-1823-83be-72a3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7782-5728-f891-5a1b" name="Clone Commander" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="9c1b-59e8-6799-6fea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bc77-bb52-24cf-7dc2" name="Clone Commander" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">9</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">5</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">3</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bcfa-49bb-9d6d-627d" name="Blaster" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7720-549a-8df5-fba8" name="Pistol" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d98f-c64d-5103-00ce" name="Martial Arts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">3</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e15f-d789-5bce-65da" name="Take It Down" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">1</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">This unit may issue this order in the Ranged Phase. Choose an enemy unit within 24” and line of sight. Friendly CLONE units gain 2 Accurate Tokens when targeting that enemy unit. Units may only benefit from this order once per turn and does not stack with the &quot;Take Them Down&quot; order.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eede-46f6-8d1b-a70d" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d42b-b065-e2a6-dffb" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="1a52-f3d8-1d5b-ddd9" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="fd17-5e61-e221-9d0f" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="dff7-ffb4-9976-4441" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="9174-4d9f-3662-9ab0" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="9c1a-4a05-9f67-23ea" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+        <categoryLink id="1405-5a28-1968-f5d4" name="Officer" hidden="false" targetId="66d6-64df-a6e9-9af2" primary="false"/>
+        <categoryLink id="d4e7-381c-d45c-013e" name="Commander" hidden="false" targetId="ce89-b482-071f-3175" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="50f6-e9e6-5301-76c1" name="Allegiance : Republic" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="065d-888e-3f77-e29f" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7701-f44e-5819-22ec" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5721-4ebb-210a-a07d" name="Not Just A Clone" hidden="false" targetId="c5e7-4d17-dac8-ad70" type="rule"/>
+        <infoLink id="4d64-ddb6-945e-cd03" name="Shoot&apos;n&apos;Scoot" hidden="false" targetId="a21f-d702-df96-16bb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7db4-8d50-77cf-8d9a" name="New CategoryLink" hidden="false" targetId="a3b3-cb7e-71aa-f6dd" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d9bd-21fe-5937-688d" name="Legion" hidden="false" collective="true" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="0ea6-4539-b7bf-bc1d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8b14-7871-aad7-c208" name="501st" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="ffd1-946d-2af0-1f9a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="45f2-be97-16c1-f6fb" name="501st" hidden="false">
+                  <description>Friendly CLONE units add 1 to their Morale Characteristic and may use the Morale of friendly OFFICER units within 12&quot; for Attrition Tests. 
+
+Friendly REPULSOR units may Fall Back and still shoot in the Ranged Phase.
+
+If Captain Rex or General Anakin are on the battlefield, friendly 501st units may re-roll their Attrition Test.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="5eba-b9be-8bba-2dc3" name="501st" hidden="false" targetId="2de9-be2b-bb83-64ed" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b58a-5e56-c6c7-cc39" name="212th" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="df88-025e-f142-dcb0" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="9e4e-819f-e021-c69e" name="212th" hidden="false" targetId="be3f-be6c-5352-e363" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5223-7a78-356d-7fb7" name="104th" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f874-0962-2818-beb2" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="d565-f3b1-26b8-c460" name="104th" hidden="false" targetId="938c-5340-4baf-1bea" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5e35-1292-a847-38ce" name="41st" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="755a-8d94-bb0c-1c43" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f0ec-57b9-7732-a7b8" name="41st" hidden="false">
+                  <description>Friendly 41st CLONE INFANTRY ignores the movement penalty for difficult terrain.
+
+A WOOKIEE unit may be included in your force for every CORE unit, ignoring the limitations of the &quot;Guns for Hire&quot; rule.
+
+If Commander Gree or Lunimara Unduli are on the battlefield, enemy units in Tactical Reserve must -1 from their reserve rolls.
+
+If Grand Master Yoda is on the battlefield, WOOKIEE INFANTRY gain the CLONE keyword.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="ad5e-a582-3495-9a22" name="41st" hidden="false" targetId="e62a-9c86-7275-cae5" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d64-4155-0bdf-006e" name="Phase II Clone Trooper Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cac6-1c5d-0970-1e3c" name="Clone Sergeant" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">While this unit has a Clone Sergeant, add 1 to At The Double and Charge rolls</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="745c-70f5-994f-f1b1" name="Phase II Clone Trooper" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">7</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">1</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">0</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b9f-0802-62cf-65a7" name="Blasters" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3e39-4aae-aa74-78e2" name="Rifles" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">24&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">1</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2c46-26ce-1bad-7aa7" name="Z6 Rotary Cannon" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">6</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">5+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">1</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bbe1-a6cf-708b-e12c" name="Rocket Launcher" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">30&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">3</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">D6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c976-5a43-4969-ad53" name="Gun Butts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">1</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">5+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1aa6-aecf-5f6b-4e2a" name="New CategoryLink" hidden="false" targetId="9720-c42a-392a-668f" primary="true"/>
+        <categoryLink id="be82-3ba4-5c2a-df84" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="a589-6386-4105-848f" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="ce6f-e489-94d5-5d03" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="1e1f-a48b-4dbb-c6a6" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="f8ed-4619-5311-ed2f" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+        <categoryLink id="2aa5-ca8d-96a2-eb65" name="Trooper" hidden="false" targetId="a5e7-4a04-2231-8be9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="813c-f5d5-06b8-f6b8" name="Phase II Clone Trooper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e592-cef6-0661-95ac" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c2c-508d-cf6c-a262" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="84b5-4b0c-8e9c-17fc" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="fa5d-7f8e-3f43-b4f6" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="813c-f5d5-06b8-f6b8" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="813c-f5d5-06b8-f6b8" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fa5d-7f8e-3f43-b4f6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="64eb-3cae-d1eb-da1a" name="Z6 Rotary Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="a2cf-315d-1cd1-79f7" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="813c-f5d5-06b8-f6b8" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="813c-f5d5-06b8-f6b8" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="a2cf-315d-1cd1-79f7" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6511-c0b8-f903-31ab" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6511-c0b8-f903-31ab" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a2cf-315d-1cd1-79f7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fef1-0570-533b-0ef2" name="Z6 Rotary Cannon" hidden="false" typeId="3e27-65ff-7fa3-5db9" typeName="Ability">
+              <characteristics>
+                <characteristic name="New CharacteristicType" typeId="538f-7063-fcdf-a9fd">If a model armed with this weapon does not move in the previous movement phase,add 1 to hit rolls for ranged attacks made with the Z6. An enemy unit which suffers an unsaved wound from this weapon suffers a -1 penalty to its At The Double and Charge rolls in the following turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6511-c0b8-f903-31ab" name="Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="5458-9d30-1dc9-536e" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="813c-f5d5-06b8-f6b8" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="813c-f5d5-06b8-f6b8" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="5458-9d30-1dc9-536e" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64eb-3cae-d1eb-da1a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="64eb-3cae-d1eb-da1a" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5458-9d30-1dc9-536e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6c91-334e-4528-e0f6" name="Rocket Launcher" hidden="false" typeId="3e27-65ff-7fa3-5db9" typeName="Ability">
+              <characteristics>
+                <characteristic name="New CharacteristicType" typeId="538f-7063-fcdf-a9fd">If the target of a ranged attack made by a rocket launcher is a VEHICLE unit, the damage characteristic becomes D6+3.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64bd-197f-f7c1-90aa" name="Clone Mortar Battery" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="fd11-2d35-aecf-3d57" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5796-7033-69c3-be6d" name="Mortar Team" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">4&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">7</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">3</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">0</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2100-3e62-38d9-544d" name="Light Mortar" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">D6</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;-30&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">5+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">1</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">D3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b548-c854-4883-f59b" name="Pistol" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eb3f-4200-bf50-2ea3" name="Punches" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">2</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">6+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6321-9b3b-028c-8419" name="Light Mortar" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">When targeting an enemy unit with this weapon, if the enemy unit contains 5 or more models, roll 2 dice when determining the amount of attacks and choose the highest result.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="90a4-d852-0cf0-526f" name="Indirect Fire" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This unit may target enemy units in the Ranged Phase with its Light Mortar, without the need for line of sight.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d0c1-fd8f-8297-1f45" name="Smoke Shells" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This unit may choose to fire smoke shells instead of its normal attacks in the Ranged Phase. If it does, it cannot fire any weapons in the Ranged Phase, but may place a Smoke Marker per Clone Mortar model in the unit, following the rules for Smoke Marker deployment.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e02a-6c4d-e52d-9a6f" name="New CategoryLink" hidden="false" targetId="d647-31d9-a844-a3e9" primary="true"/>
+        <categoryLink id="30e3-9c45-9b97-98a6" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="5769-bd1a-c06c-c72d" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="65d7-8aaa-e208-7a2b" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="dba8-93eb-7e50-40d1" name="Artillery" hidden="false" targetId="16cf-1892-a126-afef" primary="false"/>
+        <categoryLink id="4a2e-7a84-a487-dea7" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="d2e7-9a53-e356-52fb" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="06f3-ac28-3638-d197" name="Mortar Team" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="04e3-f9b6-d32d-a86c" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a948-fff3-efee-74c1" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f1e-b2e5-de06-016e" name="Clone Jet Trooper Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d98b-3f38-917d-b5d0" name="Jet Trooper" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">10&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">7</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">1</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">0</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c683-9c09-6d9e-cc19" name="Clone Sergeant" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">While this unit has a Clone Sergeant, add 1 to At The Double and Charge rolls</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="605e-4800-2dc9-fe4c" name="Rifles" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">24&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">1</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a7cc-4a2e-d38f-3ebe" name="Gun Butts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">1</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">5+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="454d-017b-4411-6e32" name="Elevated Firing Position" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">When making ranged attacks, this unit may ignore the target unit’s benefits from light cover.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ded4-e7a1-7f71-41e5" name="New CategoryLink" hidden="false" targetId="d647-31d9-a844-a3e9" primary="true"/>
+        <categoryLink id="281b-5b1a-0190-7174" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="e744-1de8-4474-963c" name="Fly" hidden="false" targetId="aaa1-3352-17f3-199b" primary="false"/>
+        <categoryLink id="e5bc-a49a-0989-8e9f" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="d305-2858-4aa3-2452" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="883f-869f-5a0f-8150" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="13cf-f9cc-ec7b-3617" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+        <categoryLink id="0b46-8eeb-5c15-445a" name="Trooper" hidden="false" targetId="a5e7-4a04-2231-8be9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7013-6306-e80e-548b" name="Jet Trooper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e771-9e3e-5b34-d07f" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ab99-2f6a-9865-b7af" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35f6-1576-ab38-a165" name="Clone Captain" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="e83b-48eb-a5f3-b122" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2bb2-38fa-f1fe-73a0" name="Clone Captain" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">8</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">4</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">2</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="315e-bfd2-d1a8-22e1" name="Pistols" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e61d-9f2f-fb8e-0e13" name="Martial Arts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">3</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3321-7473-9d27-dac0" name="Tactical Repositioning" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">When this model is attached to a CLONE unit which is eligible to make a Shoot’n’Scoot movement, add 1 to the dice roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c4a8-456b-ad8f-ac5b" name="Move, Move, Move!" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">1</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">In the Movement Phase select a friendly REPUBLIC unit within 12” of this model. When that unit makes an At The Double movement, it’s treated as though a 6 was rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1d51-efa7-3b8a-3336" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7b96-9a44-121c-4d1a" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="a697-7ead-aee6-ee74" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="67f3-7273-b0cb-88db" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="471b-3bfe-8b16-1ef6" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="dfd4-c80b-b728-da55" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="58cf-157d-3b43-57fc" name="Officer" hidden="false" targetId="66d6-64df-a6e9-9af2" primary="false"/>
+        <categoryLink id="2c1f-bd2b-5e0a-0477" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="245f-829d-3541-78a8" name="Clone Captain Rex" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="cb96-beff-32a6-a0a5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ab5e-df52-bd23-4f07" name="Rex" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">9</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">6</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">4</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e916-1dc6-147a-2db2" name="Pistols" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">4</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ddd5-19b7-17da-9cf5" name="Martial Arts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">4</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="93c6-fedc-ae43-7f2d" name="Tactical Repositioning" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">When this model is attached to a CLONE unit which is eligible to make a Shoot’n’Scoot movement, add 1 to the dice roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4697-6396-05b2-dad6" name="Move, Move, Move!" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">1</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">In the Movement Phase select a friendly REPUBLIC unit within 12” of this model. When that unit makes an At The Double movement, it’s treated as though a 6 was rolled.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="167c-f850-3d44-6ba3" name="I&apos;m Always First, Kid" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This model and any units it is attached to always count as having the “Get at them” tactical order active without spending the Tactical Points. This does not prevent this model or the attached units from issuing or receiving other orders.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="21c2-cb61-0e2c-a2f8" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+        <infoLink id="2272-9b2b-312b-8f12" name="I&apos;m Always First, Kid" hidden="false" targetId="4c33-a47d-7801-f5b0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e96f-146b-35f4-913c" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="c751-07b2-d0a4-c0d5" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="6bba-2878-87ad-fb29" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="766a-5d71-2b19-1793" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="1c35-3ac2-5829-12ab" name="501st" hidden="false" targetId="2de9-be2b-bb83-64ed" primary="false"/>
+        <categoryLink id="429d-6b55-f9e8-17ba" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="2080-65f3-8cbc-e7aa" name="Officer" hidden="false" targetId="66d6-64df-a6e9-9af2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5cf9-d24c-d2ea-bab2" name="Clone Marshall-Commander Cody" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="d1a4-4620-4f14-e351" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="86e2-f9f5-e80a-eb51" name="Martial Arts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">3</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="057c-5c44-3d4b-63b3" name="Blaster" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e0b-2bcc-5365-2983" name="Pistol" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="32ba-3669-9aaf-5c45" name="Cody" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">9</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">6</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">5</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5a13-f69e-6c3f-1fb4" name="Marshall Commander" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This unit may issue up to 2 Tactical Orders per turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="74ac-6747-3f94-37ca" name="Take Them Down" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">1</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">This unit may issue this order in the Shooting Phase. Choose up to 2 enemy units within 24” and line of sight. Friendly CLONE units gain 2 Accurate Tokens when targeting those enemy units. Units may only benefit from this order once per turn and does not stack with the &quot;Take It Down&quot; order.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8dee-1ff7-9ecf-56b1" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2e7d-a8c9-a6c3-159f" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="2d1e-47c4-7980-ecef" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="63ad-9c82-8e2c-9f43" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="f0f3-5d41-2dfc-06dc" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="90ff-a6b9-3041-dd0d" name="Officer" hidden="false" targetId="66d6-64df-a6e9-9af2" primary="false"/>
+        <categoryLink id="183d-0166-f25a-4b5e" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="06ff-03ec-93bf-c2e5" name="212th" hidden="false" targetId="be3f-be6c-5352-e363" primary="false"/>
+        <categoryLink id="88b3-3422-668f-82a6" name="Commander" hidden="false" targetId="ce89-b482-071f-3175" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bed7-271b-018d-ce62" name="Clone Commander Wolffe" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="be87-c65e-c3dc-b516" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="78f7-b257-c7e9-446c" name="Martial Arts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">4</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ef69-2fe1-e53e-c105" name="Take It Down" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">1</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">This unit may issue this order in the Ranged Phase. Choose an enemy unit within 24” and line of sight. Friendly CLONE units gain 2 Accurate Tokens when targeting that enemy unit. Units may only benefit from this order once per turn and does not stack with the &quot;Take Them Down&quot; order.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="31dd-bf4e-a72f-4686" name="Blaster" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cf4d-ff1d-a500-9b9f" name="Pistol" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60ff-f74a-d7dc-1ddd" name="Wolffe" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">10</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">6</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">4</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ceab-3591-203b-12d8" name="Wolf Pack" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">Friendly CLONE TROOPER units this model is attached to, gains +1 AP to their ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d83d-fdea-6464-3fe7" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d8d5-b3c4-a686-3007" name="104th" hidden="false" targetId="938c-5340-4baf-1bea" primary="false"/>
+        <categoryLink id="cb30-5313-d27d-6626" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="ab0c-d833-a95d-e201" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="1116-4d4e-040f-daeb" name="Commander" hidden="false" targetId="ce89-b482-071f-3175" primary="false"/>
+        <categoryLink id="0c35-adda-87e1-83d3" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="08fb-37aa-ce90-46ab" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="309e-afe2-6572-4fbc" name="Officer" hidden="false" targetId="66d6-64df-a6e9-9af2" primary="false"/>
+        <categoryLink id="b2ab-ccb6-b70a-3d93" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0a4-825b-0b38-4058" name="General Anakin" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f3bc-3ec7-a1eb-e741" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="39a1-fd1b-1b8e-8acb" name="Anakin" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">3+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">10</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">7</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">5</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">4 (8)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af9b-e631-2102-9148" name="Lightsaber" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">4</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">3+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">3</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e972-464c-170e-9689" name="Seduced By The Dark Side" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This unit may attempt to manifest the Rage Force Power in addition to the Powers it knows.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c149-c373-05c8-c762" name="The Chosen One" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">Whenever this model attempts to manifest a Force Power, re-roll any results of 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d732-fe00-738d-ba16" name="Aggressive Tactics" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">1</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">Issue this Tactical Order at the start of the MELEE PHASE. Target a friendly INFANTRY unit within 12”, that unit gains 2 Accurate Tokens and may add 3” to its Pile-in.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2f72-0dce-c038-0360" name="Lightsaber" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This model has a 5+ Deflection Save and gains Hardy Tokens equal to its total remaining wounds, against ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b9fd-a720-5c62-1838" name="501st" hidden="false" targetId="2de9-be2b-bb83-64ed" primary="false"/>
+        <categoryLink id="37ac-aea3-8519-24b4" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="2c81-c621-2630-20fd" name="Force" hidden="false" targetId="b19d-6900-160e-b5c5" primary="false"/>
+        <categoryLink id="4f6c-e952-fd45-1d4c" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="7af2-e304-ad6f-1a94" name="Jedi" hidden="false" targetId="b852-97a6-2cdd-1beb" primary="false"/>
+        <categoryLink id="5b18-b1fc-2775-533d" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="4868-0e15-806b-9b35" name="Officer" hidden="false" targetId="66d6-64df-a6e9-9af2" primary="false"/>
+        <categoryLink id="14d0-d27e-7aa5-33d3" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="c1da-7aca-1a4b-5831" name="Lightsaber" hidden="false" targetId="9394-26d1-448e-8144" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="180.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ac9-75ad-4ee3-f445" name="Grand-Master Yoda" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f8e5-030a-d17d-4925" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="57f2-ee59-e8bb-79a4" name="Yoda" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">4&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">3+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">10</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">6</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">3</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">4 (8)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6681-0c75-f86e-2d21" name="There Is No Try, Only Do" hidden="false" typeId="932b-9c98-0cc9-617c" typeName="Order">
+          <characteristics>
+            <characteristic name="Tactical Point Cost" typeId="d8d1-230e-b656-50f0">2</characteristic>
+            <characteristic name="Description" typeId="6963-ddf4-705c-85f2">Issue this Tactical Order at the start of ANY PHASE. Select a friendly unit within 12”. Until the end of that phase, the target unit may re-roll all hit rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="820b-396d-a90f-702f" name="Lightsaber" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This model has a 5+ Deflection Save and gains Hardy Tokens equal to its total remaining wounds, against ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e95e-cbe7-6ed0-70f1" name="Lightsaber" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">4</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">3+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">3</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a944-bb54-c63f-567c" name="Slow And Purposeful" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">When this model makes an At The Double move, half the rolled distance (Rounding up).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3bf0-3da4-cf7f-4d6a" name="Grand-Master" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">This unit uses 1 additional dice when making Force Resist tests. In addition, add 1 to Force Manifest Test rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="735f-67b0-03d8-e1a5" name="Elusive Target" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">-1 to hit rolls from attacks that target this unit, unless that attack has a random amount of attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2b77-41c9-4bd9-833c" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="8e73-5f3b-4ddc-f1e6" name="Force" hidden="false" targetId="b19d-6900-160e-b5c5" primary="false"/>
+        <categoryLink id="6f26-725f-440c-4388" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="3b00-265a-82d9-b6ff" name="Jedi" hidden="false" targetId="b852-97a6-2cdd-1beb" primary="false"/>
+        <categoryLink id="b1a8-f7a5-aeab-26cc" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="86b0-66ab-a324-e865" name="Lightsaber" hidden="false" targetId="9394-26d1-448e-8144" primary="false"/>
+        <categoryLink id="dc4d-e60d-b9ff-06a6" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b1a-f112-c812-7dc6" name="ARC Trooper Team" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="f01e-a07c-794d-f701" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="72ef-03da-fba2-67cf" name="ARC Trooper" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">8</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">3</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">2</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b214-5ad9-4235-194e" name="Blasters" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e9da-3df3-3167-1672" name="Pistols" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9656-9ce5-5f2a-ecff" name="Martial Arts" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">2</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0caf-db60-24eb-6315" name="ARC Leadership" hidden="false">
+          <description>When declaring attachments during the deployment phase, this unit may deploy as a single unit, or may be split as evenly as possible amongst friendly CORE units, using the rules for LEADERS attaching to units.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c593-a71d-8563-f4e8" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1bd9-7c48-4ab6-1613" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="9343-5d80-4cff-5f4f" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="2abf-4404-00e2-7809" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="7d3b-fdd8-3b94-6271" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+        <categoryLink id="5c27-c946-9b83-dd25" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="e2f9-ee9c-801c-1edd" name="New CategoryLink" hidden="false" targetId="d647-31d9-a844-a3e9" primary="true"/>
+        <categoryLink id="bd93-3422-7a41-4427" name="Trooper" hidden="false" targetId="a5e7-4a04-2231-8be9" primary="false"/>
+        <categoryLink id="a5cb-df28-ecb2-b08b" name="Commando" hidden="false" targetId="c6c6-b768-7434-d318" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="60df-dad6-011d-add2" name="ARC Trooper" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="00ff-1bb0-fc10-41dc" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="692e-3847-8ba1-fbff" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc89-a960-9bd9-f2c4" name="TX-130 Saber Fighting Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d98a-0234-e2fb-d266" name="TX-130" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">10&quot; (5&quot;)</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">3+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">7</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">15 (7)</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">0</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7457-e344-4e54-1da3" name="Heavy Laser Cannons" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">2 (1)</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">30&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">3</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">D6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="49e2-d1b2-887f-1c0c" name="Twin-Medium Laser Turret" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">4 (2)</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">24&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">1</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fd53-419b-289d-1764" name="Regenerating Shield" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">Once per turn, this model may ignore the AP of an attack which has successfully hit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8fdf-732d-f6b6-f8be" name="Fire-linked Cannons" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">If this model directs all of its eligible ranged attacks at a single target, it gains 2 Accurate Tokens.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ea47-d8aa-e775-be52" name="HE Blasts" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">If the target of an attack from this model’s Heavy Laser Cannons has the INFANTRY keyword, you may re-roll the damage characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b29b-f1e8-c762-e4b5" name="Crewed Vehicle" hidden="false">
+          <description>When this unit is destroyed, it spawns a unit of 2 CLONE PILOTs.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="752c-eb04-ce89-b983" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="503c-e1fa-e88f-c8e3" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+        <categoryLink id="2449-ef63-db4e-3249" name="Mechanical" hidden="false" targetId="dd9e-33df-8916-b30d" primary="false"/>
+        <categoryLink id="5b14-cd98-89f6-7f6c" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+        <categoryLink id="52b3-fb92-27ce-66b3" name="Repulsor" hidden="false" targetId="8e8c-5ff9-dc61-a8f9" primary="false"/>
+        <categoryLink id="195a-732f-b64e-7b87" name="New CategoryLink" hidden="false" targetId="d647-31d9-a844-a3e9" primary="true"/>
+        <categoryLink id="2498-2f85-c2a9-2d82" name="Vehicle" hidden="false" targetId="2fb8-bee5-8c5b-b705" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eaa5-9fd3-59a7-934b" name="Clone Pilots" hidden="false" collective="false" import="true" targetId="7027-8c36-ac79-6478" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7027-8c36-ac79-6478" name="Clone Pilots" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="58ae-b05f-72f9-3004" name="Clone Pilot" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">5&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">6+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">7</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">1</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">0</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a839-e900-7d48-af6a" name="Pistols" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="RoF" typeId="f882-b165-628e-6a51">1</characteristic>
+            <characteristic name="Range" typeId="8337-28ab-5064-0221">10&quot;</characteristic>
+            <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">4+</characteristic>
+            <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+            <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce0f-7b46-cc3c-1d02" name="Gun Butt" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">1</characteristic>
+            <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+            <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">5+</characteristic>
+            <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+            <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7331-f447-e4c8-5928" name="Bailed Crew" hidden="false">
+          <description>This unit cannot contest objectives.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e0ba-a046-17af-2b5b" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="db51-955b-9228-6027" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="1f4d-d890-f459-47dc" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="234c-8cb8-2728-fc2e" name="Legion" hidden="false" targetId="e364-87a0-77a9-b323" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d367-4a44-042d-2077" name="The Bad Batch" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="75f7-98c2-62f1-43a6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="473f-5cf7-992b-96e5" name="Clone Force 99" hidden="false" typeId="c82b-f4d0-67dd-1556" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="97b9-a6bb-7481-01bc">6&quot;</characteristic>
+            <characteristic name="Armour" typeId="2b78-6c78-0580-ff94">5+</characteristic>
+            <characteristic name="Morale" typeId="2964-a466-db11-1c3b">10</characteristic>
+            <characteristic name="Wounds" typeId="deea-6425-94f6-a459">5</characteristic>
+            <characteristic name="Command Value" typeId="3d69-70ac-e0e6-1ec7">3</characteristic>
+            <characteristic name="Force Strength" typeId="9181-f734-e84e-8837">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6204-34c5-0b03-6f26" name="Clone Force 99" hidden="false">
+          <description>This unit counts as CORE for contesting objectives.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8528-b62b-31a9-2f7b" name="Mandalorian Training" hidden="false" targetId="b5ad-c7b2-e01b-9f83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="58ba-7acb-a7f6-2ebb" name="Bio" hidden="false" targetId="80ec-3c11-1a7f-d77d" primary="false"/>
+        <categoryLink id="8bf6-0978-45a5-01f8" name="Clone" hidden="false" targetId="5ceb-bdbd-c6ee-bcdf" primary="false"/>
+        <categoryLink id="468b-b6c8-1444-657f" name="Commando" hidden="false" targetId="c6c6-b768-7434-d318" primary="false"/>
+        <categoryLink id="cfdf-26ee-1d91-dc3d" name="Infantry" hidden="false" targetId="d679-4a12-bd5c-3635" primary="false"/>
+        <categoryLink id="8f73-7c2d-5de6-1d18" name="New CategoryLink" hidden="false" targetId="fdbf-feed-7430-8685" primary="true"/>
+        <categoryLink id="c359-fe93-1e67-da23" name="Republic" hidden="false" targetId="9d2c-3290-2201-4560" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e445-147d-e096-46b5" name="Tech" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="805f-1246-d455-9a5f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="1a53-7aeb-399b-b95b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="71ff-36e2-a494-8a7a" name="Genius Intellect" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">While Tech is alive, this unit may issue an order to itself without expending a TP. In addition, if Tech is alive at the start of each turn, this unit generates a Lucky Token.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="70ba-59c3-c4be-206d" name="Blaster" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+                <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+                <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+                <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+                <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="03d1-3856-7803-f354" name="Combat Knife" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">2</characteristic>
+                <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+                <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+                <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+                <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a6f8-772c-98b5-0139" name="Hunter" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3ef1-cb83-7220-69b5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3096-225b-448d-330d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6973-b277-f3fe-cd97" name="Enhanced Senses" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">Whilst Hunter is alive, enemy units may not deploy within 12” of The Bad Batch. In addition, The Bad Batch may charge enemy units outside of line-of-sight.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c1f4-5a00-be2c-8f45" name="Blaster" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+                <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+                <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+                <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+                <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0818-2ee0-19fe-ce0d" name="Combat Knife" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">3</characteristic>
+                <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+                <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+                <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+                <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4959-68bb-653a-e303" name="Crosshair" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="26a3-851a-6e0b-d633" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="b9b1-2d3b-7845-2b18" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="26c9-2aea-7265-26db" name="773 Firepuncher" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+                <characteristic name="Range" typeId="8337-28ab-5064-0221">60&quot;</characteristic>
+                <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+                <characteristic name="AP" typeId="39b6-9e27-b345-60f4">2</characteristic>
+                <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3f5f-62f9-eaaf-f71c" name="Exceptional Eyesight" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">Crosshair may re-roll ranged attacks and ignores the penalty for shooting through light cover.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9d3f-25a7-be86-9b2a" name="Combat Knife" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">2</characteristic>
+                <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+                <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+                <characteristic name="AP" typeId="7b94-be17-6f23-2f80">0</characteristic>
+                <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="496c-28ad-1af1-7a87" name="Wrecker" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="2797-7837-aa33-cde0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="3f14-612b-4e8d-72d2" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7d33-7f59-d97c-c9de" name="Super-Human Strength" hidden="false" typeId="44a0-5397-60fa-bd45" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="816c-b31d-b7b0-fdfa">If an enemy unit suffers any unsaved wounds from a Melee attack from Wrecker, add D3 to that enemy unit’s Attrition Test. In addition, this unit counts as twice as many models for contesting objectives and Garrison-able Terrain.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0acf-a8ba-5646-7813" name="Destructive Force" hidden="false" typeId="d56b-8cb2-af56-f075" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Attacks" typeId="78a0-3524-63d9-6a86">2</characteristic>
+                <characteristic name="Reach" typeId="5b25-bbe7-dec0-d9f3">1&quot;</characteristic>
+                <characteristic name="Hit" typeId="a4e5-7c1f-1726-fd70">4+</characteristic>
+                <characteristic name="AP" typeId="7b94-be17-6f23-2f80">2</characteristic>
+                <characteristic name="Damage" typeId="98f1-fa13-2390-d3e1">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b731-02cb-9d42-e71a" name="Blaster" hidden="false" typeId="50dc-7d2e-06bb-dc4f" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="RoF" typeId="f882-b165-628e-6a51">2</characteristic>
+                <characteristic name="Range" typeId="8337-28ab-5064-0221">18&quot;</characteristic>
+                <characteristic name="Hit" typeId="7fcf-7f8f-4c3f-fe47">3+</characteristic>
+                <characteristic name="AP" typeId="39b6-9e27-b345-60f4">0</characteristic>
+                <characteristic name="Damage" typeId="e543-de50-82de-392a">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="1e9e-47e8-d954-027c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="1e9e-47e8-d954-027c" value="280.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="b5ad-c7b2-e01b-9f83" name="Mandalorian Training" hidden="false">
+      <description>This unit may attack with its Pistols in the Ranged Phase even when within engagement range of an enemy unit, but must target a unit within engagement range.</description>
+    </rule>
+    <rule id="c5e7-4d17-dac8-ad70" name="Not Just A Clone" hidden="false">
+      <description>If a friendly REPUBLIC unit is declared as the target for an enemy charge, a single friendly CLONE unit (Excluding Vehicles) within 6&quot; of the target of the charge may make a ranged attack as though it was the Ranged Phase. Ranged attacks performed in this manner only hit on 6&apos;s, with no modifiers. If both the target of the charge and the firing unit are both CLONE units, the attacks hit on 5&apos;s and 6&apos;s.</description>
+    </rule>
+    <rule id="a21f-d702-df96-16bb" name="Shoot&apos;n&apos;Scoot" hidden="false">
+      <description>At the end of the Ranged Phase, each CLONE INFANTRY unit which has not Advanced in the previous Movement Phase, may attempt a Shoot&apos;n&apos;scoot. Roll a die for each valid unit and on a result of 3+, that unit may move up to half its move characteristic. A movement in this manner ignores the penalty for rough terrain. A unit which has made a Shoot&apos;n&apos;scoot move may not charge that turn.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
